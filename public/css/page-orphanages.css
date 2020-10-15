@@ -80,6 +80,7 @@ a.create-orphanage hover {
     height: 4rem;
     background: #15c3d6;
     box-shadow: 17.2828px 27.65px 41.48px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
 
     display: flex;
     align-items: center;
