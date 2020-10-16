@@ -1,0 +1,27 @@
+{
+  "name": "nlw3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodelha/nlw3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodelha/nlw3/issues"
+  },
+  "homepage": "https://github.com/bodelha/nlw3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.5"
+  }
+}
