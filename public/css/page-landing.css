@@ -29,7 +29,7 @@ h1,
 
 main h1 {
     animation-delay: 150ms;
-    font-size: clamp (4rem, 8vw, 8.4rem);
+    font-size: clamp(4rem, 8vw, 8.4rem);
 }
 
 .visit p{
@@ -60,7 +60,7 @@ main h1 {
 @media (min-width:760px) {
     #container {
         padding: 5rem 2rem;
-        background: url('../images/bg.svg') no-repeat 80% / clamp(30rem, 54vw, 56rem) ; 
+        background: url('../images/bg.svg') no-repeat 80% / clamp(30rem, 45vw, 56rem) ;
     }
 
     header{
@@ -84,7 +84,7 @@ main h1 {
         font-weight: bold;
         line-height: .88;
 
-        margin: clamp (10%, 9vh, 12%) 0 4rem;
+        margin: clamp(10%, 9vh, 12%) 0 4rem;
 
         width: min(300px, 80%);
     }
@@ -96,8 +96,8 @@ main h1 {
     
     .visit p {
         font-size: 2.4rem;
-        line-height: 1.5;
-        width: clamp (20rem, 20vh, 30rem);
+        line-height: 1.2;
+        width: clamp(20rem, 20vh, 30rem);
     }
 
     .visit a {
