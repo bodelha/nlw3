@@ -49,7 +49,7 @@ main h1 {
     justify-content: center;
     margin: auto;
 
-    transition: background 200s;
+    transition: background color 200s;
     animation-delay: 250ms;
 }    
 
@@ -101,6 +101,21 @@ main h1 {
     }
 
     .visit a {
+        width: 8rem;
+        height: 8rem;
+        background: #ffd666;
+        
+        border: none;
+        border-radius: 3rem;
+        
         margin: initial;
+    
+        transition: background color 200s;
+        animation-delay: 250ms;
+    }
+
+    .visit a:hover {
+        background: #96feff;
+
     }
 }
