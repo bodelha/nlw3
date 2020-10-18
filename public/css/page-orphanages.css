@@ -53,7 +53,7 @@ a.create-orphanage {
     justify-content: center;
     align-items: center;
 
-    transition: background color 200ms;
+    transition: background 200ms;
 }
 
 a.create-orphanage hover {
@@ -62,8 +62,7 @@ a.create-orphanage hover {
 
 .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 
 .leaflet-popup-content {

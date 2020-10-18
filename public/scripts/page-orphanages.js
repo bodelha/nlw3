@@ -1,5 +1,3 @@
-const { orphanage } = require("../../src/pages");
-
 const map = L.map('mapid').setView([-27.218506,-49.642948], 15);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
@@ -25,7 +23,7 @@ function addMarker({id, name, lat, lng}) {
     .bindPopup(popup)
 }
 
-const orphanagesSpan = document.querySelectorAll (".orphanages-data span")
+const orphanagesSpan = document.querySelectorAll ("#orphanages-data span")
 orphanagesSpan.forEach ( orphanageElement => {
     const orphanage = {
         id: orphanageElement.dataset.id,

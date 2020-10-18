@@ -4,7 +4,7 @@ module.exports = [
         lat: -27.22,
         lng: -49.65,
         name: "Lar das Meninas",
-        description: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
+        about: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
         images: [
             "https://images.unsplash.com/photo-1602622931974-78228760b7b1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
@@ -12,14 +12,14 @@ module.exports = [
         ],
         instructions: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         oppening_hours: "Horário de visitas Das 18h até 8h",
-        oppening_on_weekends: "1"
+        open_on_weekends: "1"
     },
     {
         id: 2,
         lat: -27.62,
         lng: -49.63,
         name: "Lar dos Meninos",
-        description: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
+        about: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social",
         images: [
             "https://images.unsplash.com/photo-1602632931874-78228760b7b1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
@@ -27,6 +27,6 @@ module.exports = [
         ],
         instructions: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         oppening_hours: "Horário de visitas Das 8h até 18h",
-        oppening_on_weekends: "0"
+        open_on_weekends: "0"
     }
 ]
